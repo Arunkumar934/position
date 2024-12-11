@@ -1,0 +1,86 @@
+#root{
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+body{
+  height: 100vh;
+  display: flex;
+}
+.TraditionofTrust{
+ height:100vh;
+ width: 100%;
+ background-color: aqua;
+}
+
+.TraditionofTrust-wrapper{
+  width: 1200px;
+  margin: auto;
+ 
+}
+
+.Image{
+  width: 650px;
+}
+
+.secondContent{
+  display: flex;
+  width: 100%;
+  background-color: blanchedalmond;
+  height:433px;
+  position:relative;
+}
+.IMAGE-SIDE-CONTAINER{
+ height:433px; 
+ width: 61%;
+ position: absolute;
+ left:592px;
+ top: 20px;
+ border: 1px solid black;
+ padding-top: 60px;
+ padding-left: 60px;
+ padding-right: 140px;
+ background-color: white;
+ overflow: hidden;
+}
+
+.cart-overall{
+  display: flex;
+}
+.cart-1{
+  width:330px;
+  position: relative;
+  top: 30px;
+  border: 1px solid black;
+}
+
+.cart-2{
+  width:330px;
+  position: relative;
+  top: 30px;
+  border: 1px solid black;
+  position: relative;
+  left: 50px;
+}
+
+
+@media (max-width:1500px) {
+  .secondContent{
+    display: block;
+  }
+  .Image{
+  height:800px;
+  width:100%;
+}
+  .IMAGE-SIDE-CONTAINER{
+    position:relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .cart-1,.cart-2{
+    width: 600px;
+  }
+}
+
